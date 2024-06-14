@@ -1,0 +1,58 @@
+
+/*body styling*/
+body {
+    background-color: #f0f8ff; 
+    height: 100vh;
+    margin: 0;
+    color: #5e5eff; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #0000ff; 
+    font-size: larger;
+    font-weight: 600;
+    
+}
+/*nav styling*/
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #e6f0ff; 
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+/*h1 styling*/
+h1 {
+    color: #5e5eff; 
+   font-size: 200%;
+}
+/*label select styling*/
+label, select {
+    
+     
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #e6f0ff;
+        padding: 10px 0;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    
+    margin: 10px 0;
+    color: #5e5eff; 
+}
+/*display styling*/
+#display, #todos {
+    margin-top: 20px;
+    margin-left: 45%;
+    margin-right: 45%;
+}
+/*select styling*/
+select {
+    padding: 5px;
+    margin-left: 45%;
+    margin-right: 45%;
+    border: 3px solid #0000ff; 
+    background-color: #e6f0ff; 
+    color: #0000ff; 
+    font-size: large;
+    font-weight: 500;
+}
